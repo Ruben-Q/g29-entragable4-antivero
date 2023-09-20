@@ -1,0 +1,246 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    :root {
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+}
+    body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.backg-form {
+    position: relative;
+    margin-top: 3em;
+    padding: 1.5em;
+    background-image: url("./images/backg-formulario.jpg");
+    width: 250px;
+    height: 790px;
+    display: grid;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 0.7em 0.7em 0 0;
+}
+
+
+
+
+/*.close-form {
+    transform: acale(0);
+}*/
+
+
+
+/*.form-close {
+    position: absolute;
+    font-size: 1.3em;
+    top: 1em;
+    cursor: pointer;
+}*/
+
+
+.formuser-title {
+    color: rgb(75, 75, 75);
+    text-align: center;
+}
+
+.foto-nuevo-usuario {
+    position: relative;
+    background-color:rgb(226, 226, 226);
+    width: 200px;
+    height: 200px;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    gap: 4em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    color: blue;
+}
+
+
+
+.formulario {
+    position: relative;
+    margin-top: 3em;
+    display: block;
+    display: grid;
+    margin-left: 1em;
+    gap: 1em;
+    justify-content: center;
+    border-radius: 0.7em 0.7em 0 0;
+    transition: transform 200ms ease;
+}
+
+
+
+.form-close:hover {
+    color: red;
+}
+
+.campo-no-oblig {
+    color: rgb(75, 75, 75);
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    width: px;
+}
+
+.button-size {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.1em;
+    height: 1.5em;
+    color: blue;
+    font-size: 1em;
+    transition: border-color 0.25s;
+    border: solid transparent;
+    cursor: pointer;
+    display: grid;
+    text-align: center;
+    gap: 3em;
+    margin-left: 5px;
+    width: 200px;
+}
+
+.button-size:hover {
+    border-color:rgba(243, 86, 243, 0.514);
+    opacity: 70;
+    transition: all .7s;
+}
+
+.campos-obligatorios {
+    display: grid;
+    color: rgb(56, 56, 56);
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+
+h3 {
+    color: rgb(255, 255, 255);
+    padding: 0.2em;
+}
+
+.colorTex-datos {
+    color: rgb(56, 56, 56);
+}
+
+.linea-sep-titulo {
+    width: 200px;
+    border-color: rgba(108, 61, 151, 0.377);
+    text-align: center;
+    justify-content: center;
+}
+
+.label-altura {
+    outline: none; 
+    height: 2em;
+    border: 5px solid transparent;
+    border-radius: 0.4em;
+
+}
+
+.test-info {
+    margin-left: 1em;
+}
+
+.formUser-createBtnUser {
+    background-color: rgb(49, 222, 235);
+    border: 1px solid transparent;
+    border-radius: 0.7em  ;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border: solid transparent;
+    font-size: 0.9em;
+    text-align: center;
+
+}
+
+.formUser-createBtnUser:hover {
+    border-color: rgb(178, 247, 252);
+    
+}
+
+.birthay {
+    cursor: pointer;
+}
+
+
+
+
+
+.footer {
+    background-color: rgb(70, 70, 70);
+    width: 250px;
+    display: grid;
+    gap: 1em;
+    color: white;
+    padding: 1.5%;
+    border-radius: 0 0 0.7em 0.7em;
+    margin-top: 0.3em;
+    text-align: center;
+}
+
+.footer-info {
+    background-color: rgb(39, 39, 39);
+    padding: 1em;
+    border-radius: 1em;
+    list-style: none;
+    display: grid;
+    gap: 0.5em;
+}
+
+.button-delete {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.1em;
+    height: 2em;
+    color: rgb(255, 0, 0);
+    font-size: 0.9em;
+    transition: border-color 0.25s;
+    border: solid transparent;
+}
+
+.button-delete:hover {
+    border-color: rgb(250, 119, 119);
+    opacity: 70;
+    transition: all .7s;
+}
+
+.button-delete {
+    cursor: pointer;
+}
+
+.button-edit {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.1em;
+    height: 2em;
+    color: rgb(25, 0, 255);
+    font-size: 0.9em;
+    transition: border-color 0.25s;
+    border: solid transparent;
+}
+
+.button-edit:hover {
+    border-color:rgb(138, 127, 236);
+    opacity: 70;
+    transition: all .7s;
+}
+
+.button-edit {
+    cursor: pointer;
+}
+
+
+
+

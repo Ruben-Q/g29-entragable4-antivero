@@ -1,0 +1,232 @@
+
+/*.close-form {
+    transform: acale(0);
+}*/
+
+/*.form-close {
+    position: absolute;
+    font-size: 1.3em;
+    top: 1em;
+    cursor: pointer;
+}*/
+
+.heather-close {
+    background-color: aliceblue;
+    position: absolute;
+    font-size: 1.2em;
+    top: 1em;
+    right: 1.5em;
+    cursor: pointer;
+    width: 70px;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.formUser-buttonCeate-form {
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+    background-color: rgba(136, 49, 235, 0.527);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 0.2em;
+    width: 300px;
+    margin-left: 45%;
+    border-radius: 0.7em 0.7em 0 0;
+    margin-top: 1em;
+}
+
+.heather-close:hover {
+    color: red;
+}
+
+.heather-title {
+    color: rgb(90, 90, 90);
+    text-align: center;
+    padding: 0.3em;
+}
+
+.heatherLinea-sep-titulo {
+    width: 200px;
+    border-color: rgba(108, 61, 151, 0.377);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.heatherPhoto-newUser {
+    background-color:rgba(83, 83, 83, 0.541);
+    width: 200px;
+    height: 200px;
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    color: rgb(255, 255, 255);
+    margin-left: 4em;
+}
+
+.heatherTex-notMandatory {
+    background-color: rgba(28, 3, 255, 0.418);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+.heatherFhoto-notMandatory {
+    background-color: rgba(28, 3, 255, 0.418);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+.campos-obligatorios {
+    background-color: rgba(82, 5, 5, 0.418);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: px;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+.formUser-container {
+    transition: transform 200ms ease;
+}
+
+.close-all {
+    transform: scale(0);
+}
+
+.formUser {
+    background-image: url("./images/backg-formulario.jpg");
+    width: 100%;
+    max-width: 300px;
+    padding: 2.5em 1.5em 2.5em;
+    position: relative;
+    margin-left: 45%;
+    margin-top: 0.2em;
+}
+
+
+.formUser-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+.formUser-label {
+    font-size: 1em;
+    margin-left: 1em;
+}
+
+.formUser-input {
+    padding: 0.4em 0.8em;
+    border-radius: 0.6em;
+}
+
+.formUser-createBtnUser {
+    width: 100%;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+    background-color: rgb(49, 222, 235);
+    border: 1px solid transparent;
+    border-radius: 0.6em  ;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 0.2em;
+}
+
+.formUser-createBtnUser:hover {
+    border-color: rgb(255, 255, 255);
+    filter: brightness(1.3);
+}
+
+
+
+.footer {
+    background-color: rgb(70, 70, 70);
+    width: 300px;
+    display: grid;
+    gap: 1em;
+    color: white;
+    padding: 1.5%;
+    border-radius: 0 0 0.7em 0.7em;
+    margin-top: 0.3em;
+    text-align: center;
+    margin-left: 45%;
+    margin-bottom: 1em;
+}
+
+.footer-line {
+    width: 180px;
+    margin-bottom: 1px;
+}
+
+.footer-info {
+    background-color: rgb(39, 39, 39);
+    padding: 1em;
+    border-radius: 1em;
+    list-style: none;
+    display: grid;
+    gap: 0.5em;
+}
+
+.button-delete {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.1em;
+    height: 2em;
+    color: rgb(255, 0, 0);
+    font-size: 0.9em;
+    transition: border-color 0.25s;
+    border: solid transparent;
+}
+
+.button-delete:hover {
+    border-color: rgb(250, 119, 119);
+    opacity: 70;
+    transition: all .7s;
+}
+
+.button-delete {
+    cursor: pointer;
+}
+
+.button-edit {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.1em;
+    height: 2em;
+    color: rgb(25, 0, 255);
+    font-size: 0.9em;
+    transition: border-color 0.25s;
+    border: solid transparent;
+}
+
+.button-edit:hover {
+    border-color:rgb(138, 127, 236);
+    opacity: 70;
+    transition: all .7s;
+}
+
+.button-edit {
+    cursor: pointer;
+}
+
+
+
