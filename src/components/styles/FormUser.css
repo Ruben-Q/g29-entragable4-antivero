@@ -18,14 +18,12 @@
     right: 1.5em;
     cursor: pointer;
     width: 70px;
-    border-radius: 0.5em;
     text-align: center;
 }
 
 .formUser-buttonCeate-form {
     font-size: 1em;
-    font-weight: 400;
-    padding-top: 0.6em;
+    font-weight: 300;
     padding-bottom: 0.5em;
     background-color: rgba(136, 49, 235, 0.527);
     cursor: pointer;
@@ -112,7 +110,7 @@
 }
 
 .formUser {
-    background-image: url("./images/backg-formulario-largo.jpg");
+    background-image: url("/images/backg-formulario-largo.jpg");
     width: 100%;
     max-width: 300px;
     padding: 2.5em 1.5em 2.5em;
